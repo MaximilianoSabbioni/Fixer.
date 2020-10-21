@@ -1,0 +1,140 @@
+@import "colors";
+@import "tipografia";
+@import "mediaqueries";
+
+
+
+
+.header_logo{
+		color: $celeste;
+		font-family: $kumbh;
+		font-weight: 700;
+		font-size: 40px;
+		text-decoration: none !important;
+		float: left;
+		line-height:70px;
+		margin-left: 20px;
+		margin-top: 10px;
+		
+	}
+.header_logo:hover{
+	color: $celeste;
+}
+
+.header_item{
+	    color: $blanco !important;
+		font-family: $kumbh;
+		font-weight: 300;
+		transition: background 0.3s 0s ease-in;
+		margin: 7px;
+		border-radius: 50px !important;
+}
+.header_item:hover{
+	background: $celeste;
+}
+
+.info{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.info_item{
+	position: relative;
+	padding: 1rem;
+	justify-content: space-evenly;
+	align-content: center;
+	margin: 1rem;
+	text-align: center;
+	transition: transform 1s;	
+}
+.info_img{
+	border-radius: 50%;
+	padding: .6rem;
+	width: 150px;
+	height: 150px;
+}
+.info_title{
+	font-family: $kumbh;
+	font-size: 15px;
+	font-weight: 700;
+	color: $celeste;
+	text-align: center;
+}
+.info_text{
+	font-family: $kumbh;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+
+footer {
+	
+	width:100%; 
+	overflow:hidden;
+	background: rgb(61,101,129);
+	background: $gradientFooter;
+	margin-bottom:0px;
+	box-shadow: 0px -0.5rem 1rem #999!important;
+	
+}
+.footer_container{
+		margin: 30px;
+		display: flex;
+		align-items: center !important;
+		justify-content:center;
+}
+.footer_title{
+	color: $blanco;
+	font-family: $kumbh;
+	font-size: 35px;
+	text-decoration: none;
+	line-height:50px;
+	font-weight: 700;
+	padding: 0px;
+	margin: 10px;
+}
+		
+input, textarea, select{
+	box-sizing: border-box;
+	width: 35rem;
+	font-family: $kumbh;
+}
+fieldset {
+	border: none !important;
+	margin: 0 0 10px;
+	padding: 0px;		
+}
+button{
+	box-sizing: border-box;
+	width: 35rem;
+	font-family: $kumbh;
+	border: none;
+	background:$celeste;
+	color: $blanco;
+	margin: 0 0 10px;
+	padding: 10px;
+	font-size: 15px;
+	font-family: $kumbh;
+}
+
+.main{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+  }
+.main_title {
+	color: $celeste;
+	font-family: $kumbh;
+	font-weight: 700;
+	font-size: 25px;
+	text-align: left;
+  }
+.main_text{
+	color: rgb(0, 0, 0);
+	font-family: $kumbh;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: left;
+  }
