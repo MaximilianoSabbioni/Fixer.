@@ -11,8 +11,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
+	<script src="https://kit.fontawesome.com/9e282981af.js" crossorigin="anonymous"></script>
+	<!-- MDB icon -->
+	<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+	<!-- Google Fonts Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
 
 </head>
 <body>
@@ -20,7 +25,7 @@
 		
 			
 			  <div class="nav1">
-				  <nav class="navbar navbar-dark bg-dark  flex-column flex-sm-row" >
+				  <nav class="navbar navbar-dark header_bg  flex-column flex-sm-row" >
 						  <a href="index.html" class="header_logo">Fixer.</a>
 						  
 						  
@@ -42,14 +47,14 @@
 			</div>
 			<div class="nav2">
 								<!--Navbar-->
-								<nav class="navbar navbar-dark bg-dark">
+								<nav class="navbar navbar-dark header_bg">
 
 							  <!-- Navbar brand -->
 							  <a class="header_logo" href="index.html">Fixer.</a>
 
 							  <!-- Collapse button -->
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">  <span class="navbar-toggler-icon"></span>
-   						 	</button>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
 
 							  <!-- Collapsible content -->
 							  <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
@@ -137,47 +142,119 @@
 		</div>
 	</div>
 		
-<br><br><br><br>
 
-
+<hr></hr>
 	<!---------------------------------------Cierran 3 fotos redondas-->
+
+<!-------Section Contacto------------------------------------------------>
+<section class= "m-5" >
+
+    <!--Section heading-->
+    <h2 name="contacto" id="contacto" class="h1-responsive font-weight-bold text-center my-4 celeste">Contáctanos</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5 gris" >Tienes alguna duda? Puedes comunicarte con nosotros a traves de este formulario y responderemos lo mas rápido posible!
+        </p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5 ">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Nombre</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6" text-info>
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Correo Electrónico</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Tu Mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x celeste"></i>
+                    <p class="celeste">Banfield, Buenos Aires, Argentina</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x celeste"></i>
+                    <p class="celeste">+54 11 3014-3993</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x celeste"></i>
+                    <p class="celeste">fixer@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!------------------------------Cierra Section Contacto--------------------------->
+
+
+	<div class="footer">
+		<ul class="social-network social-circle">
+		  <li><a class="icoLinkedin" href="https://www.linkedin.com/in/maximiliano-sabbioni-2b403b1b8/" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+		  <li><a class="icoTwitter" href="https://twitter.com/home" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+		  <li><a class="icoFacebook" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+		  <li><a class="icoInstagram" href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+	  </div>
 	
 	<!---------------------------------------Abre footer-->
-	<footer>
-
-		<a  name="contacto">
-			<div class="footer_container">
-				<form enctype="" method="post" >
-
-					<h2 class="footer_title"> Contacto </h2>
-
-					<fieldset>
-						<input type="text" name="nombre" placeholder="Nombre" tabindex="1" required class="form-group class">
-					</fieldset>
-					
-					<fieldset>
-						<input type="email" name="mail" placeholder="Correo Electrónico" tabindex="2" required class="form-group class">
-					</fieldset>
-
-					<fieldset>
-						<textarea name="consulta" rows="6" cols="15" tabindex="3" placeholder="Escribe tu consulta aqui..." required class="form-group class">		
-						</textarea>
-					</fieldset>
-
-					<fieldset>
-						<button type="submit" >Enviar</button>
-					</fieldset>
-
-		
-				</form>
-			
-			</a>
-		
-		</div>
-</footer>
+	
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
 
 </html>
