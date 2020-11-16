@@ -1,6 +1,6 @@
 @media (max-width: 768px){
     .header_logo{
-      font-size: 20px;
+      font-size: 40px;
       float: left;
       margin: 5px;
       line-height: default;
@@ -22,13 +22,16 @@
     .nav1{
       display: none;
     }
+    .contenido1{
+      display: none;
+    }
   
-  input, textarea, select{
-    width: 70%;
-  }
-  button{
-    width: 70%;
-  }
+    input, textarea, select{
+      width: 70%;
+    }
+    button{
+      width: 70%;
+    }
   }
   @media (min-width: 768px){
     .nav1{
@@ -37,4 +40,14 @@
     .nav2{
       display:none;
       }
+    .contenido1{
+      display: block;
     }
+    .contenido2{
+      display: none;
+    }
+    }
+
+
+
+    

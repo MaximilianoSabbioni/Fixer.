@@ -2,8 +2,10 @@
 @import "tipografia";
 @import "mediaqueries";
 
-
-
+.img {
+	width: 17rem;
+	height: 17rem;
+}
 
 .header_logo{
 		color: $celeste;
@@ -22,12 +24,15 @@
 }
 
 .header_item{
-	    color: $blanco !important;
+		color: $blanco !important;
 		font-family: $kumbh;
 		font-weight: 300;
 		transition: background 0.3s 0s ease-in;
 		margin: 7px;
 		border-radius: 50px !important;
+}
+.header_contact{
+	background: $celeste;
 }
 .header_item:hover{
 	background: $celeste;
@@ -250,6 +255,42 @@
 	  }
   }
 
+
+.tituloGeneralR{
+font-family: $kumbh;
+font-weight: 700;
+font-size: 30px;
+color: $celeste;
+
+}
+.tituloContenido {
+ font-family: $kumbh;
+ font-weight: 700;
+ font-size: 30px;
+ color: $celeste;
+ 
+}
+
+.parrafoContenido{
+	font-family: $kumbh;
+	font-weight: 300;
+ 	font-size: 17px;
+ 	color: $gris;
+}
+
+.tituloContenidoR{
+ font-family: $kumbh;
+ font-weight: 700;
+ font-size: 25px;
+ color: $celeste;
+}
+
+.parrafoContenidoR{
+	font-family: $kumbh;
+	font-weight: 300;
+ 	font-size: 14px;
+ 	color: $gris;
+}
 
 
   

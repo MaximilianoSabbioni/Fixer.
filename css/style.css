@@ -1,3 +1,34 @@
+.tituloGeneralR {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #3fa9f5!important; }
+
+.tituloContenido {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #3fa9f5; }
+
+.parrafoContenido {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #252932; }
+
+.tituloContenidoR {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #3fa9f5; }
+
+.parrafoContenidoR {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #252932; }
+
+
 .celeste {
   color: #3fa9f5; }
 
@@ -9,7 +40,7 @@
 
 @media (max-width: 768px) {
   .header_logo {
-    font-size: 20px;
+    font-size: 40px;
     float: left;
     margin: 5px;
     line-height: default; }
@@ -25,6 +56,11 @@
     flex-grow: 1; }
   .nav1 {
     display: none; }
+  .contenido1 {
+    display: none; }
+  .contenido2{
+    display: block;
+  }
   input, textarea, select {
     width: 70%; }
   button {
@@ -34,7 +70,15 @@
   .nav1 {
     display: block; }
   .nav2 {
+    display: none; }
+  .contenido1 {
+    display: block; }
+  .contenido2 {
     display: none; } }
+
+.img {
+  width: 17rem;
+  height: 17rem; }
 
 .header_logo {
   color: #3fa9f5;
@@ -57,6 +101,9 @@
   transition: background 0.3s 0s ease-in;
   margin: 7px;
   border-radius: 50px !important; }
+
+.header_contact {
+  background: #3fa9f5; }
 
 .header_item:hover {
   background: #3fa9f5; }
@@ -246,3 +293,5 @@ ul.social-network {
     margin: 0;
     line-height: 40px;
     text-align: center; } }
+
+
